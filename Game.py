@@ -119,7 +119,7 @@ def gui_show():
                 check_movement()
                 screen.fill((0, 0, 0))
                 draw_points(points)
-                add_stars(4)
+                add_stars(5)
                 animation()
                 Graphics.draw_hud(screen,speed)
                 time.sleep(0.01)
